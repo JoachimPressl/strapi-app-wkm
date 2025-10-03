@@ -16,7 +16,7 @@
       "repeatable": false
     },
     "text": {
-      "type": "richtext"
+      "type": "blocks"
     },
     "video": {
       "type": "media",

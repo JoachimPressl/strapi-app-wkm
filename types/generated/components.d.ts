@@ -51,7 +51,7 @@ export interface TextHeaderImage extends Struct.ComponentSchema {
     general: Schema.Attribute.Component<'meta.general', false>;
     image: Schema.Attribute.Media<'files' | 'images'>;
     layout: Schema.Attribute.Component<'meta.layout', false>;
-    text: Schema.Attribute.RichText;
+    text: Schema.Attribute.Blocks;
   };
 }
 
@@ -78,7 +78,7 @@ export interface TextTextAndImage extends Struct.ComponentSchema {
     general: Schema.Attribute.Component<'meta.general', false>;
     images: Schema.Attribute.Media<'images' | 'files', true>;
     layout: Schema.Attribute.Component<'meta.layout', false>;
-    text: Schema.Attribute.RichText;
+    text: Schema.Attribute.Blocks;
   };
 }
 
@@ -90,7 +90,7 @@ export interface TextTextAndVideo extends Struct.ComponentSchema {
   attributes: {
     general: Schema.Attribute.Component<'meta.general', false>;
     layout: Schema.Attribute.Component<'meta.layout', false>;
-    text: Schema.Attribute.RichText;
+    text: Schema.Attribute.Blocks;
     video: Schema.Attribute.Media<'files' | 'videos', true>;
   };
 }
