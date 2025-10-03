@@ -15,6 +15,9 @@
       "component": "meta.layout",
       "repeatable": false
     },
+    "text": {
+      "type": "blocks"
+    },
     "video": {
       "type": "media",
       "multiple": true,
