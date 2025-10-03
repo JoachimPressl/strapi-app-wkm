@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_text_header_images",
+  "info": {
+    "displayName": "header_image"
+  },
+  "options": {},
+  "attributes": {
+    "general": {
+      "type": "component",
+      "component": "meta.general",
+      "repeatable": false
+    },
+    "layout": {
+      "type": "component",
+      "component": "meta.layout",
+      "repeatable": false
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

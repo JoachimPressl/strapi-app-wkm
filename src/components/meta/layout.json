@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_meta_layouts",
+  "info": {
+    "displayName": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "frame": {
+      "type": "enumeration",
+      "enum": [
+        "frame",
+        "no_frame"
+      ]
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "light",
+        "dark",
+        "primary",
+        "secondary"
+      ]
+    },
+    "space_before": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "extra small",
+        "small",
+        "middle",
+        "large",
+        "extra large"
+      ]
+    },
+    "space_after": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "extra small",
+        "small",
+        "middle",
+        "large",
+        "extra large"
+      ]
+    }
+  },
+  "config": {}
+}

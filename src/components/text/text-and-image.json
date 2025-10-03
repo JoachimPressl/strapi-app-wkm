@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_text_text_and_images",
+  "info": {
+    "displayName": "text_and_image"
+  },
+  "options": {},
+  "attributes": {
+    "general": {
+      "type": "component",
+      "component": "meta.general",
+      "repeatable": false
+    },
+    "layout": {
+      "type": "component",
+      "component": "meta.layout",
+      "repeatable": false
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "align": {
+      "type": "enumeration",
+      "default": "left",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  },
+  "config": {}
+}

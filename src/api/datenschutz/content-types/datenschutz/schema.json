@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "datenschutzs",
+  "info": {
+    "singularName": "datenschutz",
+    "pluralName": "datenschutzs",
+    "displayName": "Datenschutz"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "component": "meta.seo",
+      "repeatable": false
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "text.text",
+        "text.text-and-video",
+        "text.text-and-image",
+        "text.header-image"
+      ]
+    }
+  }
+}

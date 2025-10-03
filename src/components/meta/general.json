@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_meta_generals",
+  "info": {
+    "displayName": "general"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

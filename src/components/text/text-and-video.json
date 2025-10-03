@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_text_text_and_videos",
+  "info": {
+    "displayName": "text_and_video"
+  },
+  "options": {},
+  "attributes": {
+    "general": {
+      "type": "component",
+      "component": "meta.general",
+      "repeatable": false
+    },
+    "layout": {
+      "type": "component",
+      "component": "meta.layout",
+      "repeatable": false
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "video": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "files",
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

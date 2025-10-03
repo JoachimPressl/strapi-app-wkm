@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_text_texts",
+  "info": {
+    "displayName": "Text"
+  },
+  "options": {},
+  "attributes": {
+    "general": {
+      "type": "component",
+      "component": "meta.general",
+      "repeatable": false
+    },
+    "layout": {
+      "type": "component",
+      "component": "meta.layout",
+      "repeatable": false
+    },
+    "text": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}
