@@ -14,9 +14,6 @@
       "type": "component",
       "component": "meta.layout",
       "repeatable": false
-    },
-    "text": {
-      "type": "blocks"
     }
   },
   "config": {}

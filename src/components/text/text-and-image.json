@@ -15,9 +15,6 @@
       "component": "meta.layout",
       "repeatable": false
     },
-    "text": {
-      "type": "blocks"
-    },
     "images": {
       "type": "media",
       "multiple": true,
